@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Pradeep Kumar Boggarapu - Professional Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f7fa;
+        }
+        header {
+            background: linear-gradient(135deg, #4a90e2, #005f99);
+            color: white;
+            padding: 60px 10%;
+            text-align: center;
+            position: relative;
+        }
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            margin: 10px 0;
+            font-size: 2.5em;
+            font-weight: 700;
+            font-family: 'Merriweather', serif;
+        }
+        header p {
+            margin: 5px 0;
+            font-size: 1.2em;
+            color: #d0e7ff;
+        }
+        header a {
+            color: #ffdd57;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        nav {
+            background: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 15px;
+            display: block;
+        }
+        nav ul li a:hover {
+            color: #005f99;
+        }
+        section {
+            padding: 40px 10%;
+        }
+        .section-title {
+            font-size: 2em;
+            font-weight: 700;
+            color: #005f99;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card h3 {
+            font-size: 1.4em;
+            color: #005f99;
+            margin-bottom: 10px;
+        }
+        .card p {
+            color: #555;
+            font-size: 1em;
+        }
+        footer {
+            background: #005f99;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        footer a {
+            color: #ffdd57;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .highlight {
+            color: #005f99;
+            font-weight: bold;
+        }
+        .publications {
+            line-height: 1.8;
+        }
+        .publications h3 {
+            font-size: 1.6em;
+            color: #005f99;
+            margin-top: 20px;
+        }
+        .publications ul {
+            list-style: none;
+            padding: 0;
+        }
+        .publications ul li {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="profile.jpg" alt="Dr. Pradeep Kumar">
+    <h1>Dr. Pradeep Kumar Boggarapu</h1>
+    <p>R&D Lead Engineer | Researcher | Innovator</p>
+    <p><a href="mailto:kumarb.nitt@gmail.com">kumarb.nitt@gmail.com</a> | +91 9030872166</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#skills">Skills</a></li>
+    </ul>
+</nav>
+
+<section id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>Dr. Pradeep Kumar Boggarapu is a dedicated researcher with expertise in power electronics, control algorithms, and photovoltaic systems. With over 8 years of experience, he has contributed to innovative projects, impactful research, and advanced solutions in the field of renewable energy.</p>
+</section>
+
+<section id="experience">
+    <h2 class="section-title">Experience</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>R&D Lead Engineer</h3>
+            <p class="highlight">TKM Business Solutions Pvt Ltd</p>
+            <p>Aug 2023 - Present</p>
+        </div>
+        <div class="card">
+            <h3>Lead R&D Engineer</h3>
+            <p class="highlight">Pyrologics India Pvt Ltd</p>
+            <p>Jun 2022 - Aug 2023</p>
+        </div>
+        <div class="card">
+            <h3>Assistant Professor</h3>
+            <p class="highlight">Kakatiya Institute of Technology and Science</p>
+            <p>Jan 2021 - Jun 2022</p>
+        </div>
+        <div class="card">
+            <h3>Research Scholar</h3>
+            <p class="highlight">NIT Tiruchirappalli</p>
+            <p>Aug 2015 - Dec 2020</p>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Predictive Control Tool Development</h3>
+            <p>Developed MATLAB-based predictive control tools for ABB systems with enhanced features and runtime capabilities.</p>
+        </div>
+        <div class="card">
+            <h3>Arc Fault Detection</h3>
+            <p>Designed energy-based fault detection algorithms for AC systems, ensuring improved fault detection reliability.</p>
+        </div>
+        <div class="card">
+            <h3>PV Fault Localization</h3>
+            <p>Developed novel methods for fault detection and localization during inverter pre-turn ON/OFF conditions in PV systems.</p>
+        </div>
+        <div class="card">
+            <h3>Modular Multilevel Converter Analysis</h3>
+            <p>Simulated and analyzed device-level faults in modular multilevel converters using MATLAB/Simulink.</p>
+        </div>
+    </div>
+</section>
+
+<section id="publications">
+    <h2 class="section-title">Publications</h2>
+    <div class="publications">
+        <h3>Journals</h3>
+        <ul>
+            <li><strong>1. </strong> <strong style="color: red;"> B. Pradeep Kumar <strong>, M. Nitheesh Kumar, M. Chakkarapani, G. Saravana Ilango, C. Nagamani, "Estimation of PV Module Degradation Through Extraction of I-V Curve at Inverter Pre-Startup Condition," <strong><em>IET Renewable Power Generation</em></strong>, Vol. 14, Issue 17, Pages 3479-3486, Jan 2021. <a href="https://doi.org/10.1049/iet-rpg.2020.0316" target="_blank">Read more</a>.</li>
+            <li><strong>2. </strong> B. Pradeep Kumar, Dhanup. S. Pillai, N. Rajasekar, M. Chakkarapani, G. Saravana Ilango, "Identification and Localization of Array Faults with Optimized Placement of Voltage Sensors in a PV System," <strong><em>IEEE Transactions on Industrial Electronics</em></strong>, vol. 68, no. 7, pp. 5921-5931, July 2021, <a href="https://doi.org/10.1109/TIE.2020.2998750" target="_blank">Read more</a>.</li>
+            <li><strong>3. </strong> B. Pradeep Kumar, M. Chakkarapani, B. Lehman, G. Saravana Ilango, C. Nagamani, "Identification of Pre-existing/Undetected Line-to-Line Faults in PV Array Based on Pre-turn ON/OFF Condition of the PV Inverter," <strong><em>IEEE Transactions on Power Electronics</em></strong>, vol. 35, no. 11, pp. 11865-11878, Nov. 2020, <a href="https://doi.org/10.1109/TPEL.2020.2987856" target="_blank">Read more</a>.</li>
+            <li><strong>4.</strong> B. Pradeep Kumar, G. Saravana Ilango, M. Jaya Bharatha Reddy, C. Nagamani, "Online Fault Detection and Diagnosis in Photovoltaic Systems Using Wavelet Packets," <strong><em>IEEE Journal of Photovoltaics</em></strong>, vol. 8, no. 1, pp. 257-265, Jan. 2018.</li>
+        </ul>
+        <h3>Conferences</h3>
+        <ul>
+            <li><strong>1. </strong> Rajkumar Jukuri, B. Pradeep Kumar, V. Ashok Kumar, C. Subba Rami Reddy, V. Srikanth, "Modeling and Investigation of Best PV Array Configuration and Implementation of MPPT Under Partial Shading Conditions," <strong><em>ICPCSES-2022</em></strong>, BMS College of Engineering, Bangalore.</li>
+            <li><strong>2. </strong> Ashok Valahoju, Shiva Rama Krishna Prasad L, B Kiran Kumar, B. Pradeep Kumar, "Islanding Detection Scheme for Grid-Connected PV System Using AI Technique," <strong><em>ICPCSES-2022</em></strong>, BMSCE, Bangalore.</li>
+            <li><strong>3. </strong> J. Sreelakshmy, B. Pradeep Kumar, G. Saravana Ilango, C. Nagamani, "Identification of Faults in PV Array Using Maximal Overlap Discrete Wavelet Transform," <strong>20th National Power Systems Conference (NPSC)</strong>, Tiruchirappalli, India, 2018.</li>
+            <li><strong>4. </strong> R. Nitheesh, B. Pradeep Kumar, M. Chakkarapani, G. Saravana Ilango, C. Nagamani, "Detection and Quantification of Degradation Using Time Constant of PV Voltage," <strong>National Power Electronics Conference (NPEC)</strong>, Pune, 2017.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="awards">
+    <h2 class="section-title">Awards</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Buddying Researcher Award</h3>
+            <p class="highlight">National Institute of Technology, Tiruchirappalli</p>
+        </div>
+        <div class="card">
+            <h3>SPOT Award</h3>
+            <p class="highlight">Honeywell Technology Solutions Ltd, Bangalore</p>
+        </div>
+    </div>
+</section>
+
+<section id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Programming</h3>
+            <p>MATLAB, LabVIEW, Embedded C</p>
+        </div>
+        <div class="card">
+            <h3>Tools</h3>
+            <p>Simulink, Code Composer Studio, MPC Tools</p>
+        </div>
+        <div class="card">
+            <h3>Hardware</h3>
+            <p>DSP Controllers, Prototype Development</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Dr. Pradeep Kumar Boggarapu | <a href="mailto:kumarb.nitt@gmail.com">Contact Me</a></p>
+</footer>
+
+</body>
+</html>
